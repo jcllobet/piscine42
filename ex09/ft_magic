@@ -1,0 +1,10 @@
+#!/bin/bash
+41 string 42 42 file
+
+# offset type (string) test message
+# offset:
+# A number specifying the offset (in bytes) into the file of the data which is to be tested
+# type: The type of the data to be tested.  One possible value is:
+# string: A string of bytes.  The string type specification can be optionally followed by /[WwcCtbT]*
+# test: The value to be compared with the value from the file.  If the type is numeric, this value is specified in C form;
+# message: The message to be printed if the comparison succeeds.  
